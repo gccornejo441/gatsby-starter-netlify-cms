@@ -16,7 +16,7 @@ const navigation = [
 export default function Example() {
   return (
     <div className="relative bottom-28 z-10 overflow-hidden">
-      <div className="w-screen h-screen bg-[url('/images/clean-window-header.jpg')] bg-center object-cover bg-cover">
+      <div className="w-screen h-screen bg-[url('/images/kw-header.svg')] bg-center object-cover bg-cover">
         <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:w-full lg:pb-28 xl:pb-32">
           <Popover>
             <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
@@ -82,22 +82,29 @@ export default function Example() {
           </Popover>
 
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-            <div className="text-center">
-              <h1 className="text-4xl tracking-tight font-montserrat font-extrabold text-blue-500 sm:text-5xl md:text-6xl">
+            <div className="text-center px-32">
+              <h1 className="text-4xl tracking-tight font-montserrat font-extrabold text-white sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">
-                  Data to enrich your online business
+                  Start your day with cleaner windows
                 </span>
               </h1>
-              <p className="font-montserrat mt-3 text-base font-semibold text-blue-900 sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              <p className="font-montserrat mt-3 text-base font-semibold text-white sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
                 lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
                 fugiat aliqua.
               </p>
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+              <div className="mt-5 sm:mt-8 sm:flex sm:justify-between px-48">
                 <div className="rounded-md">
                   <Link href="#">
-                    <a className="font-montserrat rounded-md text-lg font-medium text-white bg-orange-400 hover:bg-orange-500 tracking-widest shadow-md shadow-gray-400 px-10 py-3">
+                    <a className="font-montserrat rounded-md text-lg font-semibold text-white border-2 border-lime-500 bg-lime-500 hover:bg-white hover:text-lime-500 tracking-widest px-10 py-3">
                       Get A Quote
+                    </a>
+                  </Link>
+                </div>
+                <div className="rounded-md">
+                  <Link href="#">
+                    <a className="font-montserrat rounded-md text-lg font-semibold hover:text-white hover:bg-lime-500 bg-white text-lime-500 tracking-widest px-10 py-3">
+                      Our Services
                     </a>
                   </Link>
                 </div>
